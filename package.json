@@ -1,0 +1,25 @@
+{
+  "name": "carbon-now",
+  "version": "0.0.3",
+  "keywords": [
+    "image",
+    "pic",
+    "picture",
+    "img",
+    "screenshot",
+    "code",
+    "jpg",
+    "png",
+    "code-to-image"
+  ],
+  "bugs": "https://github.com/dmred/carbon-now/issues",
+  "description": "Beautiful images of your code — from right inside your Node.js app!",
+  "main": "index.js",
+  "repository": "https://github.com/dmred/carbon-now",
+  "author": "Dima Red <dmredchenko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "carbon-now-cli": "^1.4.0",
+    "fs": "^0.0.1-security"
+  }
+}
