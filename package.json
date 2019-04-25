@@ -21,6 +21,7 @@
   "dependencies": {
     "carbon-now-cli": "^1.4.0",
     "code-snipper": "^0.0.23",
+    "code2image": "^0.9.3",
     "fs": "^0.0.1-security",
     "yarn": "^1.15.2"
   }
