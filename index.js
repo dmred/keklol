@@ -10,7 +10,7 @@ const tempFile = "temp.js";
 createTempFile(tempFile, code, {}, () => {
   console.log("created");
   exec(
-    `node ./node_modules/carbon-now-cli/cli.js index.js`,
+    `node ./node_modules/carbon-now-cli/cli.js ${tempFile} -l ./output `,
     (error, stdout, stderr) => {
       removeTempFile(tempFile, () => {
         console.log("removed");
