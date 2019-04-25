@@ -20,6 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "carbon-now-cli": "^1.4.0",
+    "code-snipper": "^0.0.23",
     "fs": "^0.0.1-security",
     "yarn": "^1.15.2"
   }
